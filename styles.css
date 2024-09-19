@@ -1,0 +1,379 @@
+/* ========== ESTILO GERAL ========== */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-top: 60px; 
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #e53935;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-size: 18px;
+    padding: 5px 10px; 
+}
+
+nav ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.2); /
+}
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #c62828;
+    min-width: 160px;
+    z-index: 1000;
+}
+
+.dropdown-content li {
+    display: block;
+}
+
+.dropdown-content li a {
+    color: white; 
+    padding: 10px;
+    display: block;
+    text-align: left;
+    text-decoration: none; 
+}
+
+.dropdown-content li a:hover {
+    background-color: #b71c1c; 
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+section {
+    padding: 100px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== HOME ========== */
+#home {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+#home h1 {
+    color: #1e90ff;
+}
+
+#home p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.home-image {
+    max-width: 60%; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+/* ========== SOBRE ========== */
+
+#sobre {
+    background-color: #fff;
+    padding: 50px;
+    max-width: 800px; 
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+#sobre h2 {
+    color: #0f0e0e; 
+    margin-bottom: 15px;
+    font-size: 24px; 
+    font-weight: bold;
+}
+
+#sobre p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+#sobre ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0;
+}
+
+#sobre ul li {
+    font-size: 16px; 
+    color: #333;
+    padding: 10px 0; 
+    border-bottom: 1px solid #ddd; 
+}
+
+#sobre ul li:last-child {
+    border-bottom: none; 
+}
+
+
+
+
+
+/* ========== SERVIÇOS ========== */
+#servicos {
+    background-color: #f9f9f9; 
+    padding: 50px;
+    text-align: center; 
+}
+
+#servicos h1 {
+    color: #333; 
+}
+
+#servicos p {
+    font-size: 16px;
+    color: #666; 
+    margin-bottom: 20px; 
+}
+
+.home-image {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 8px; 
+    margin: 20px 0; 
+}
+
+.servicos-list {
+    list-style-type: disc; 
+    padding-left: 20px; 
+    font-size: 16px;
+    color: #444; 
+    text-align: left;
+    margin: 0 auto; 
+    max-width: 800px; 
+}
+
+.servicos-list li {
+    margin-bottom: 10px; 
+    background-color: transparent;
+    padding: 0; 
+}
+
+
+
+
+
+/*========== CONTATO ==============*/
+#contato {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: center;
+}
+
+#contato h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contato p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+#contato ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: left; 
+    margin: 0 auto; 
+    max-width: 600px; 
+    background-color: #fff; 
+    padding: 20px; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contato ul li {
+    margin-bottom: 15px; 
+}
+
+#contato form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#contato form input,
+#contato form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#contato form input[type="submit"] {
+    background-color: #e53935;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+#contato form input[type="submit"]:hover {
+    background-color: #c62828;
+}
+
+
+
+
+
+
+
+
+
+/* ========== CONSULTORIA ========== */
+#consultoria {
+    background-color: #020202;
+    padding: 50px;
+    text-align: left;
+}
+
+#consultoria h1, #consultoria h2 {
+    color: #222;
+}
+
+#consultoria p {
+    font-size: 16px;
+    color: #444;
+}
+
+#consultoria ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+/* ========== SUPORTE ========== */
+#suporte {
+    background-color: #f4f4f4;
+    padding: 50px;
+    text-align: left;
+}
+
+#suporte h1, #suporte h2 {
+    color: #333;
+}
+
+#suporte p {
+    font-size: 16px;
+    color: #555;
+}
+
+
+.btn-suporte-online {
+    display: inline-block;
+    background-color: #ff1e1e;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 20px;
+}
+
+.btn-suporte-online:hover {
+    background-color: #1c86ee;
+}
+
+
+
+
+
+
+
+/* ========== DESENVOLVIMENTO ========== */
+#desenvolvimento {
+    background-color: #000000;
+    padding: 50px;
+    text-align: left;
+}
+
+#desenvolvimento h1, #desenvolvimento h2 {
+    color: #111;
+}
+
+#desenvolvimento p {
+    font-size: 16px;
+    color: #333;
+}
+
+#desenvolvimento ul {
+    list-style-type: circle;
+    padding-left: 20px;
+}
