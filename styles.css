@@ -11,8 +11,8 @@ nav {
     top: 0;
     width: 100%;
     background-color: #e53935;
-    padding: 10px 0;
-    z-index: 1000;
+    padding: 20px ;
+    z-index: 100;
 }
 
 nav ul {
@@ -215,44 +215,51 @@ p {
 
 
 
-/*========== CONTATO ==============*/
+/* ========== CONTATO ========== */
 #contato {
     background-color: #f4f4f4;
     padding: 50px;
-    text-align: center;
+    text-align: center; 
 }
 
 #contato h1 {
     color: #333;
     margin-bottom: 20px;
+    font-size: 24px; 
 }
 
 #contato p {
-    font-size: 16px;
+    font-size: 14px; 
     color: #666;
     margin-bottom: 30px;
+    padding-left: 5px; 
 }
 
 #contato ul {
     list-style-type: none; 
     padding: 0; 
-    margin: 0; 
-    text-align: left; 
     margin: 0 auto; 
-    max-width: 600px; 
+    max-width: 1000px; 
     background-color: #fff; 
     padding: 20px; 
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left; 
 }
 
 #contato ul li {
-    margin-bottom: 15px; 
+    font-size: 16px; 
+    margin-bottom: 5px; 
+    padding-left: 0px; 
+}
+
+#contato ul li strong {
+    white-space: nowrap; 
 }
 
 #contato form {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 600px; 
+    margin: 20px auto; 
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
@@ -267,6 +274,7 @@ p {
     border: 1px solid #ccc;
     border-radius: 4px;
     box-sizing: border-box;
+    font-size: 14px; 
 }
 
 #contato form input[type="submit"] {
@@ -276,14 +284,16 @@ p {
     cursor: pointer;
     padding: 15px;
     border-radius: 4px;
-    font-size: 16px;
+    font-size: 16px; 
 }
 
 #contato form input[type="submit"]:hover {
     background-color: #c62828;
 }
 
-
+.email {
+    white-space: nowrap; 
+}
 
 
 
@@ -311,6 +321,24 @@ p {
     list-style-type: disc;
     padding-left: 20px;
 }
+
+/* Remove as bolinhas */
+ul {
+    list-style-type: none; 
+    padding-left: 0; 
+    margin-left: 0; 
+    text-align: left; 
+}
+
+/* Estilo para a imagem */
+#consultoria .home-image {
+    max-width: 200%; /* Faz a imagem responsiva */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 8px; /* Bordas arredondadas na imagem */
+    margin: 20px 0; /* Espaço acima e abaixo da imagem */
+}
+
+
 
 
 
